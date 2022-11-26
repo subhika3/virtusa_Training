@@ -15,7 +15,7 @@ WebElement username=driver.findElement(By.id("user_email_Login"));
 WebElement password=driver.findElement(By.id("user_password"));
 WebElement login=driver.findElement(By.name("commit"));
 username.sendKeys("abc@gmail.com");
-password.sendKeys("your_password");
+password.sendKeys("abcd");
 login.click();
 String actualUrl="https://live.browserstack.com/dashboard";
 String expectedUrl= driver.getCurrentUrl();
