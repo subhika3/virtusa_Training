@@ -1,0 +1,4 @@
+SELECT Employee.EmpFname, Employee.EmpLname, Projects.ProjectID, Projects.ProjectName
+FROM Employee
+RIGHT JOIN
+ON Employee.EmpID = Projects.EmpID;
